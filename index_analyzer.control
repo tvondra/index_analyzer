@@ -1,0 +1,5 @@
+# index_analyzer extension
+comment = 'A short description'
+default_version = '0.1.0'
+module_pathname = '$libdir/index_analyzer'
+relocatable = true

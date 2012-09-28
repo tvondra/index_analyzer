@@ -1,0 +1,25 @@
+{
+   "name": "index_analyzer",
+   "abstract": "Functions for analysis of effectivity and efficiency of existing or considered indexes.",
+   "description": "A package that might help you if you need to evaluate the existing or considered indexes. So these functions may be useful for you if you need to know which indexes are not used at all (thus slowing down modifications and occupy space on the drive but not helping the queries) or might be useful if created.",
+   "version": "0.1.0",
+   "maintainer": "Tomas Vondra <tv@fuzzy.cz>",
+   "license": "bsd",
+   "provides": {
+      "index_analyzer": {
+         "abstract": "Functions for analysis of effectivity and efficiency of existing or considered indexes.",
+         "file": "sql/index_analyzer.sql",
+         "docfile": "doc/index_analyzer.md",
+         "version": "0.1.0"
+      }
+   },
+
+   "release_status": "testing",
+
+   "maintainer": "Tomas Vondra <tv@fuzzy.cz>",
+
+   "meta-spec": {
+      "version": "1.0.0",
+      "url": "http://pgxn.org/meta/spec.txt"
+   }
+}
