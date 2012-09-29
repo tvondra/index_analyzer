@@ -19,3 +19,8 @@ CREATE INDEX child_idx ON child_table(col_b);
 
 -- run basic test on the child table - nothing should be reported
 SELECT * FROM analyze_fks('child_table'::regclass);
+
+-- perform CLEANUP
+DROP TABLE child_table;
+DROP TABLE main_table;
+

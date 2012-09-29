@@ -54,3 +54,6 @@ SELECT * FROM analyze_index('test_index_2'::regclass, 1.0);
 
 -- should not be OK (selectivity ~20%)
 SELECT * FROM analyze_index('test_index_3'::regclass, 5.0);
+
+-- perform CLEANUP
+DROP TABLE test_table;

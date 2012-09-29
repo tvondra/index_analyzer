@@ -105,3 +105,5 @@ SELECT * FROM analyze_index('test_index_3'::regclass, 5.0);
  test_table | test_index_3 | low selectivity |          20 |         5 | 50000 |    139
 (1 row)
 
+-- perform CLEANUP
+DROP TABLE test_table;

@@ -25,3 +25,6 @@ SELECT * FROM analyze_fks('child_table'::regclass);
 ---------+------------+--------+--------
 (0 rows)
 
+-- perform CLEANUP
+DROP TABLE child_table;
+DROP TABLE main_table;
