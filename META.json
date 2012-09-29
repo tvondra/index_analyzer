@@ -18,6 +18,16 @@
 
    "maintainer": "Tomas Vondra <tv@fuzzy.cz>",
 
+   "resources": {
+      "repository": {
+        "url":  "https://github.com/tvondra/index_analyzer.git",
+        "web":  "http://github.com/tvondra/index_analyzer",
+        "type": "git"
+      }
+   },
+
+   "tags" : ["administration", "dba", "index", "analysis"],
+
    "meta-spec": {
       "version": "1.0.0",
       "url": "http://pgxn.org/meta/spec.txt"
