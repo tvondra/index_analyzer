@@ -8,8 +8,8 @@ down modifications and occupy space on the drive but not helping
 the queries) or might be useful if created.
 
 These answers are not definitive though, because indexes may be
-used in many ways and and unused for many reasons - for example
-the way the queries are written and so on.
+used in many ways and unused for many reasons - for example the way
+the queries are written and so on.
 
 The functions check only user tables, not system catalogs.
 
